@@ -1,5 +1,5 @@
 """ This example uses Python Fabric to deploy MySQL/MariaDB and Apache on five
-servers """
+servers. Should work as a charm """
 
 # import all the fabric functions that we need explicitly
 from fabric.api import env, roles, sudo, execute, put, run, local, lcd, prompt, cd, parallel
